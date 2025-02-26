@@ -5,7 +5,7 @@ def main():
     print("Encryptor")
     encryptor = Encryptor()
 
-    text = "Text to be encrypted"
+    text = "Some other text to be encrypted!"
 
     encrypted_text = encryptor.encrypt(text, encryptor.key.decode())
     decrypted_text = encryptor.decrypt(encrypted_text, encryptor.key.decode())
